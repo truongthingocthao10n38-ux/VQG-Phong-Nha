@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Vườn Quốc Gia Phong Nha – Kẻ Bàng | Di Sản Thế Giới</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: "Times New Roman", Times, serif; background-color: #f4f4f4; line-height: 1.6; }
+
+        .banner {
+            position: relative;
+            background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+                              url('https://nld.mediacdn.vn/291774122806476800/2024/11/18/dong-phong-nha-ke-bang-dep-den-choang-ngop-17319168370561406931222.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+            text-align: center;}
+            .logo{
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 80px;}
+
+        nav { background: linear-gradient(to right, #018a65, #01694d); position: sticky; top: 0; z-index: 1000; }
+        nav ul { list-style: none; display: flex; justify-content: center; }
+        nav li { position: relative; }
+        nav a { color: white; text-decoration: none; padding: 15px 20px; display: block; font-weight: bold; }
+        nav a:hover { background: rgba(255,255,255,0.1); }
+
+        .submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #01694d;
+            min-width: 180px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        .dropdown:hover .submenu { display: block; }
+        .submenu a { padding: 10px 15px; font-weight: normal; font-size: 14px; border-bottom: 1px solid rgba(255,255,255,0.1); }
+
+        .container { width: 90%;max-width: 1400px; margin: 20px auto; display: flex; gap: 30px; padding: 0 15px; }
+        .content { flex: 2; background: white; padding: 25px; border-radius: 8px; }
+        .sidebar { width: 250px; flex-shrink: 0; background: #eee; padding: 20px; border-radius: 8px; }
+
+        h2 { 
+            color: #01694d; 
+            margin-top: 25px; 
+            margin-bottom: 15px; 
+            border-left: 5px solid #01694d; 
+            padding-left: 10px; 
+            scroll-margin-top: 80px; 
+        }
+
+        h3 { color: #018a65; margin: 15px 0 10px 0; scroll-margin-top: 80px; }
+
+        figure { margin: 25px auto; text-align: center; }
+        .content img {
+            width: 100%; 
+            max-width: 100%; 
+            height: auto;  
+            display: block; 
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        figcaption {
+            font-style: italic;
+            font-size: 14px;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .content p { text-align: justify; margin-bottom: 1.2em; }
+    </style>
+</head>
+<body>
+
+    <header class="banner">
+        <img src="https://vqgphongnhakebang.ifee.edu.vn/pages/images/logo_512x512.png" class="logo">
+        <h1>VƯỜN QUỐC GIA PHONG NHA - KẺ BÀNG</h1>
+        <p>Kỳ quan đệ nhất động – Niềm tự hào thiên nhiên của mảnh đất Quảng Bình</p>
+    </header>
+    <nav>
+    <ul>
+            <li><a href="#tong-quan">Tổng quan</a></li>
+            <li><a href="#vi-tri-dia-ly">Vị trí địa lý</a></li>
+            <li><a href="#lich-su-hinh-thanh-va-phat-trien">Lịch sử</a></li>
+            <li class="dropdown">
+                <a href="#he-thong-hang-dong-tieu-bieu">Hang động tiêu biểu ▼</a>
+                <ul class="submenu">
+                    <li><a href="#dong-phong-nha">Động Phong Nha</a></li>
+                    <li><a href="#dong-thien-duong">Động Thiên Đường</a></li>
+                    <li><a href="#hang-son-doong">Hang Sơn Đoòng</a></li>
+                    <li><a href="#hang-toi">Hang Tối</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#dia-chat">Địa chất</a></li>
+            <li><a href="#he-sinh-thai">Hệ sinh thái</a></li>
+            <li><a href="#du-lich">Du lịch</a></li>
+            <li><a href="#gia-tri-van-hoa-kinh-te">Giá trị</a></li>
+            <li><a href="#y-nghia-bao-ton-va-phat-trien-ben-vung">Ý nghĩa</a></li>
+            <li><a href="#ky-quan-thien-nhien-day-tu-hao">Kỳ quan</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="content">
+                        
+        <h2 id="tong-quan">Tổng quan về vườn quốc gia Phong Nha – Kẻ Bàng</h2>
+            <p>Vườn quốc gia Phong Nha – Kẻ Bàng là quần thể danh lam thắng cảnh và di sản thiên nhiên nổi tiếng của Việt Nam, nằm ở tỉnh Quảng Bình. Nơi đây được UNESCO công nhận là Di sản Thiên nhiên Thế giới nhờ sở hữu hệ thống hang động đá vôi đồ sộ, cảnh quan thiên nhiên hùng vĩ cùng giá trị địa chất, địa mạo đặc biệt. Vườn quốc gia không chỉ có ý nghĩa về mặt du lịch mà còn đóng vai trò quan trọng trong nghiên cứu khoa học, bảo tồn đa dạng sinh học và phát triển kinh tế – xã hội của khu vực miền Trung Việt Nam.</p>
+            <div style="text-align:center; margin:25px 0;">
+            <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/ABGZj11HsPU"
+            title="Video Phong Nha - Kẻ Bàng"
+            frameborder="0"
+            allowfullscreen>
+            </iframe>
+            </div>
+            <figure>            
+            <img src="https://umove.com.vn/data/media/503/images/ke%20bang%204.jpg" alt="Vườn quốc gia Phong Nha - Kẻ Bàng">
+                <figcaption>Toàn cảnh Vườn quốc gia Phong Nha - Kẻ Bàng với thảm thực vật nguyên sinh trù phú.</figcaption>
+            </figure>
+         <h2 id="vi-tri-dia-ly">Vị trí địa lý và phạm vi phân bố</h2>
+            <p>Phong Nha - Kẻ Bàng nằm trên địa bàn các huyện Bố Trạch và Minh Hóa, thuộc tỉnh Quảng Bình, cách thành phố Đồng Hới khoảng 50 km về phía tây bắc. Khu vực này thuộc dãy núi Trường Sơn, giáp biên giới Việt – Lào.</p>
+            <p>Vườn quốc gia có diện tích hơn 123.000 ha; bao gồm núi đá vôi, rừng nguyên sinh cùng hệ thống sông suối và sông ngầm, nhiều thung lũng và hang động lớn nhỏ. Vị trí địa lý đặc biệt này đã tạo điều kiện cho quá trình hình thành hệ thống hang động phong phú và cảnh quan thiên nhiên đa dạng.</p>
+         <h2 id="lich-su-hinh-thanh-va-phat-trien">Lịch sử hình thành và phát triển</h2>
+         <p>Phong Nha – Kẻ Bàng là khu vực có lịch sử địa chất lâu đời, với các khối đá vôi được hình thành cách đây hơn 400 triệu năm. Qua quá trình phong hóa và tác động của nước, hệ thống hang động trong khu vực đã dần được tạo nên, mang hình dạng và cấu trúc vô cùng độc đáo.</p>
+         <p>Trải qua thời gian, Phong Nha – Kẻ Bàng không chỉ được phát hiện và khai thác phục vụ du lịch mà còn trở thành đối tượng nghiên cứu quan trọng của nhiều nhà khoa học trong và ngoài nước.</p>
+        <h2 id="he-thong-hang-dong-tieu-bieu">Hệ thống hang động tiêu biểu</h2>
+            <p>Phong Nha – Kẻ Bàng nổi tiếng với hàng trăm hang động lớn nhỏ, trong đó nhiều hang động được xếp vào hàng đẹp và kỳ vĩ nhất thế giới.</p>
+        <h3 id="dong-phong-nha">Động Phong Nha</h3>
+            <figure>
+        <img src="https://ecotour.com.vn/wp-content/uploads/2025/05/du-lich-dong-phong-nha-ke-bang-quang-binh.jpeg" alt="Động Phong Nha" />
+        <figcaption>Vẻ đẹp huyền ảo bên trong Động Phong Nha</figcaption>
+            </figure>
+            <p>Động Phong Nha được mệnh danh là “Kỳ quan đệ nhất động” của Việt Nam. Hang động này nổi bật với: Sông ngầm dài chảy xuyên qua lòng hang cùng hệ thống thạch nhũ, măng đá đa dạng, lung linh. Không gian rộng lớn, huyền ảo. Động Phong Nha là biểu tượng tiêu biểu của quần thể Phong Nha – Kẻ Bàng.</p>
+         <h3 id="dong-thien-duong">Động Thiên Đường</h3>
+            <figure>
+        <img src="https://media.vietravel.com/images/Content/du-lich-dong-thien-duong-02.png" alt="Động Thiên Đường" />
+        <figcaption>Thạch nhũ tráng lệ trong Động Thiên Đường</figcaption>
+            </figure>
+            <p>Được ví như “hoàng cung trong lòng đất” với chiều dài hơn 30 km. Bên trong hang là những khối thạch nhũ đồ sộ, tinh xảo, mang vẻ đẹp tráng lệ và kỳ ảo.</p>
+         <h3 id="hang-son-doong">Hang Sơn Đoòng</h3>
+            <figure>
+        <img src="https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/482754PxI/anh-mo-ta.png" alt="Hang Sơn Đoòng" />
+        <figcaption>Hang Sơn Đoòng - Hang động tự nhiên lớn nhất thế giới</figcaption>
+            </figure>
+            <p>Là hang động tự nhiên lớn nhất thế giới, có hệ sinh thái riêng biệt bên trong hang, bao gồm rừng cây và sông suối. Đây là điểm đến mang tầm vóc quốc tế, thu hút sự quan tâm của du khách và các nhà khoa học trên toàn cầu.</p>
+        <h3 id="hang-toi">Hang Tối</h3>
+            <figure>
+        <img src="https://netintravel.com/wp-content/uploads/2023/06/hang-toi-quang-binh.jpg" alt="Hang Tối" />
+        <figcaption>Hang Tối - Điểm đến lý tưởng cho các hoạt động du lịch mạo hiểm và tắm bùn tự nhiên.</figcaption>
+            </figure>
+            <p>Là địa điểm lý tưởng cho du lịch mạo hiểm, nơi du khách có thể tham gia các hoạt động như tắm bùn, zipline và khám phá hang động trong bóng tối.</p>
+         <h2 id="dia-chat">Giá trị địa chất và địa mạo</h2>
+            <p>Phong Nha – Kẻ Bàng là một trong những vùng karst (địa hình đá vôi) cổ nhất châu Á. Các cấu trúc địa chất trong khu vực phản ánh rõ quá trình vận động của vỏ Trái Đất qua hàng trăm triệu năm.</p>
+            <p>Những giá trị này giúp Phong Nha – Kẻ Bàng trở thành "Trung tâm nghiên cứu địa chất quan trọng" là minh chứng sống động cho lịch sử phát triển của Trái Đất.</p>
+         <h2 id="he-sinh-thai">Hệ sinh thái và đa dạng sinh học</h2>
+            <figure>
+        <img src="https://nads.1cdn.vn/2023/06/23/W_rung-nguyen-sinh-hoang-an-9-.jpg" alt="Rừng nguyên sinh" />
+        <figcaption>Rừng nguyên sinh trên núi đá vôi là nơi lưu giữ đa dạng sinh học bậc nhất Việt Nam.</figcaption>
+            </figure>
+            <p>Phong Nha – Kẻ Bàng sở hữu hệ sinh thái rừng nguyên sinh phong phú, là nơi sinh sống của nhiều loài động vật quý hiếm, hệ thực vật đa dạng với hàng nghìn loài cây. Khu vực này đóng vai trò quan trọng trong việc bảo tồn đa dạng sinh học và cân bằng môi trường sinh thái.</p>
+         <h2 id="du-lich">Hoạt động du lịch và trải nghiệm</h2>
+            <p>Du lịch tại vườn quốc gia rất đa dạng, phù hợp với hầu hết đối tượng du khách như: tham quan hang động bằng thuyền,  trekking, leo núi, khám phá rừng, chèo kayak trên sông ngầm, zipline và các hoạt động mạo hiểm như: Du lịch sinh thái, nghỉ dưỡng, trải nghiệm văn hóa địa phương...</p>
+            <figure>
+        <img src="https://phongnhatourism.com.vn/image/images/TVH09620(1).jpg" alt="Tham quan hang động bằng thuyền" />
+        <figcaption>Tham quan hang động bằng thuyền</figcaption>
+            </figure>
+
+            <figure>
+        <img src="https://mia.vn/media/uploads/blog-du-lich/phong-nha-ke-bang-leo-nui-1722660646.jpg" alt="Trekking khám phá rừng nguyên sinh" />
+        <figcaption>Trekking khám phá rừng nguyên sinh</figcaption>
+            </figure>
+
+            <figure>
+        <img src="https://media.vietravel.com/images/news/dia-diem-du-lich-phong-nha-ke-bang-00168.png" alt="Chèo kayak" />
+        <figcaption>Chèo kayak</figcaption>
+            </figure>
+
+            <figure>
+        <img src="https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=450,height=450,dpr=2/tour_img/107467f64a820b37ed61526ce3be52e4e0aceadedd23a7f37f943ceb98feb8d2.jpeg" alt="Zipline" />
+        <figcaption>Zipline</figcaption>
+            </figure>
+
+            <figure>
+        <img src="https://bizweb.dktcdn.net/100/469/761/files/phong-nha-lake-house-resort-12.jpg?v=1742046018617" alt="Một khu nghỉ dưỡng tại vườn quốc gia Phong Nha - Kẻ Bàng" />
+        <figcaption>Một khu nghỉ dưỡng tại vườn quốc gia Phong Nha - Kẻ Bàng</figcaption>
+            </figure>
+         <h2 id="gia-tri-van-hoa-kinh-te">Giá trị văn hóa – kinh tế</h2>
+            <p>Vườn quốc gia Phong Nha – Kẻ Bàng góp phần quan trọng trong việc phát triển du lịch tỉnh Quảng Bình; tạo việc làm cho người dân địa phương; quảng bá hình ảnh Việt Nam ra thế giới.</p>
+            <p>Ngoài ra, khu vực này còn gắn liền với đời sống, văn hóa và sinh hoạt của cộng đồng dân cư bản địa.</p>
+         <h2 id="y-nghia-bao-ton-va-phat-trien-ben-vung">Ý nghĩa bảo tồn và phát triển bền vững</h2>
+            <p>Việc bảo tồn Phong Nha – Kẻ Bàng có ý nghĩa to lớn trong việc giữ gìn tài nguyên thiên nhiên; bảo vệ môi trường sinh thái; phát triển du lịch bền vững</p>
+            <p>Nhà nước và cộng đồng đang không ngừng nỗ lực để bảo vệ và phát huy giá trị của di sản này cho các thế hệ tương lai.</p>
+         <h2 id="ky-quan-thien-nhien-day-tu-hao">Kỳ quan thiên nhiên đầy tự hào</h2>
+            <img src="https://ktx.vnmediacdn.com/stores/news_dataimages/nguyenthiluan/082019/16/09/in_article/4217_Son-Doong-Cave-1024x576.jpg" alt="Kỳ quan thiên nhiên đầy tự hào" />
+            <p>Vùng đất Phong Nha – Kẻ Bàng không chỉ là kỳ quan thiên nhiên độc đáo mà còn là niềm tự hào của Việt Nam. Với vẻ đẹp hùng vĩ, giá trị khoa học to lớn và tiềm năng du lịch rộng mở, nơi đây xứng đáng là điểm đến không thể bỏ qua trên bản đồ du lịch thế giới.</p>
+        </div>
+        <aside class="sidebar">
+          <h2>Thông tin nhanh</h2>
+            <ul>
+                <li><strong>Địa chỉ:</strong> xã Sơn Trạch, huyện Bố Trạch, tỉnh Quảng Bình</li>
+                <li><strong>Diện tích:</strong> hơn 123.000 ha</li>
+                <li>Là di sản thiên nhiên thế giới được UNESCO công nhận hai lần (năm 2003 và 2015)</li>
+            </ul>
+        </aside>
+    </div>
+</body>
+</html>
